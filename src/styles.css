@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.bg-blue {
+  background-color: #548cff;
+}
+button:hover {
+  cursor: pointer;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.flex-col-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.txt1 {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.txt2 {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+  text-transform: uppercase;
+}
+.login-100 {
+  width: 80%;
+  margin: auto;
+}
+.register-100 {
+  width: 80%;
+  height: 40rem;
+  margin: auto;
+}
+.formulario-l {
+  max-width: 50rem;
+  max-height: 40rem;
+
+  background: white;
+  border-radius: 10px;
+  /* arriba derecha abajo izquierda */
+  margin: 5rem auto auto auto;
+  padding: 1rem 1rem;
+}
+.formulario-r {
+  max-width: 50rem;
+  max-height: 40rem;
+
+  background: white;
+  border-radius: 10px;
+  /* arriba derecha abajo izquierda */
+  margin: 5rem auto auto auto;
+  padding: 1rem 1rem;
+}
+
+.boton {
+  width: 100%;
+}
+.container-login100,
+.container-propuesta100 {
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 15px 0;
+}

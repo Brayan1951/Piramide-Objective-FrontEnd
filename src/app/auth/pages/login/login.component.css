@@ -1,0 +1,18 @@
+.login-100 {
+  width: 80%;
+  margin: auto;
+}
+.formulario {
+  max-width: 50rem;
+  max-height: 30rem;
+
+  background: white;
+  border-radius: 10px;
+  /* arriba derecha abajo izquierda */
+  margin: 5rem auto auto auto;
+  padding: 1rem 1rem;
+}
+
+.boton {
+  width: 100%;
+}
